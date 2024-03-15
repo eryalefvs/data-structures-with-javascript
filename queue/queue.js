@@ -26,7 +26,6 @@ class Queue {
         const result = this.items[this.lowestCount];
         delete this.items[this.lowestCount];
         this.lowestCount++;
-        this.count--;
         return result;
     }
 
