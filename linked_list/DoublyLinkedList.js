@@ -1,4 +1,4 @@
-import LinkedList from "./linkedList";
+import LinkedList from "./LinkedList";
 import DoublyNode from "./models/doubly-linked-list-models";
 
 export default class DoublyLinkedList extends LinkedList {
